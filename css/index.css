@@ -6,7 +6,7 @@ body{
 	background-color:#ddd8ab;
 	align-items: center;
 	justify-content: center;
-	background-image: url("../img/bgy1.png");
+	background-image: url("img/bgy1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background:opacity(0.5);
