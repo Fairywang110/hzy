@@ -1,0 +1,42 @@
+body{
+	width:1920px;
+    height:1080px;
+    display: flex;
+    overflow: hidden;
+	background-color:#ddd8ab;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../img/dbg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*opacity:0.5;*/
+}
+#come{
+	width:65%;
+	height:80%;
+	position:absolute;
+	top:10%;
+	left:1%;
+}
+#XX{
+	width:2%;
+	height:3%;
+	position:absolute;
+	bottom: 33%;
+	left:46%;
+	animation:rip 1.5s linear infinite;/*放大缩小*/
+}
+@keyframes rip{
+	0%{
+	width:2%;
+	height:4%;
+	}
+	50%{
+	width:3%;
+	height:5%;
+	}
+	100%{
+	width:2%;
+	height:4%;
+	}
+}
